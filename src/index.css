@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.icon-left {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.icon-right {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.season-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.season-display.winter i{
+  color: blue;
+}
+
+.season-display.summer i{
+  color: red;
+}
+.winter {
+  background-color: aliceblue;
+}
+
+.summer {
+  background-color: orange;
+}
